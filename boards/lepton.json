@@ -14,7 +14,7 @@
     },
     "core": "arduino",
     "cpu": "cortex-m0plus",
-    "extra_flags": "-D ARDUINO_RASPBERRY_PI_PICO -DARDUINO_ARCH_RP2040 -DUSBD_MAX_POWER_MA=500",
+    "extra_flags": "-DARDUINO_RASPBERRY_PI_PICO -DARDUINO_ARCH_RP2040 -DPICO_BUILD -DUSBD_MAX_POWER_MA=500",
     "f_cpu": "133000000L",
     "hwids": [
       [
